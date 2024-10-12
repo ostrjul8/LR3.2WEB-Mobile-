@@ -54,7 +54,6 @@ body {
     grid-row: 2 / 4;
     background-color: #3E2723;
     color: #FFD700;
-    overflow: auto;
 }
 
 .block-3 {
@@ -69,7 +68,6 @@ body {
     grid-column: 3 / 4;
     grid-row: 2 / 5;
     background-color: #78866B;
-    overflow: auto;
 }
 
 .block-5 {
