@@ -147,33 +147,13 @@ a{
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr; 
-        grid-template-rows: auto; 
-    }
-
-    .block {
-        grid-column: 1 / 2; 
-    }
-
-    .block-1,
-    .block-2,
-    .block-3,
-    .block-4,
-    .block-5,
-    .block-6,
-    .block-7 {
-        grid-column: 1 / 2; 
-        width: 100%; 
-    }
-
-    .block-3, .block-5, .block-6 {
-        margin: 10px 0; 
-    }
-
-    .block-x, .block-y {
-        position: static; 
+    .block-2, .block-3, .block-4, .block-5, .block-6 {
         width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+
+    .block-3 {
+        margin: 10px 0;
     }
 }
-
